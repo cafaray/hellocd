@@ -13,7 +13,7 @@ public class HelloCdApplication {
 
 	@RequestMapping("/")
 	String home() {
-		return "Hello World!";
+		return "Hello to Continuous Integration Course!";
 	}
 
 	public static void main(String[] args) {
